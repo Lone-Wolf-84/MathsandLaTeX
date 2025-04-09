@@ -1,0 +1,154 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\geometry{margin=1in}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textcolor{gray}{Marlborough Boys' College}}
+\rhead{\textcolor{gray}{Learning Support Department}}
+\cfoot{\thepage}
+
+% Title formatting
+\titleformat{\section}{\normalfont\Large\bfseries\color{blue}}{}{0em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries\color{teal}}{}{0em}{}
+
+% Custom command for math spacing in thousands
+\newcommand{\mathspace}[1]{\ensuremath{\,\!#1}}
+
+% Highlighting keywords
+\newcommand{\keyword}[1]{\textbf{\textcolor{violet}{#1}}}
+
+\title{\textcolor{blue}{Whole Numbers: Rounding, Place Value, and Estimating} \\
+\large A Learning Resource for Year 9 Students (Ages 13–14)}
+\author{\textcolor{black}{Prepared by Geovanny A. Chamorro M. \\
+Inclusion Learning Assistant \\
+Marlborough Boys' College \\
+\href{mailto:geovanny.chamorro@mbc.school.nz}{geovanny.chamorro@mbc.school.nz} \\
+\href{https://orcid.org/0000-0002-9365-8463}{ORCID: 0000-0002-9365-8463}}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+This learning guide is designed to support Year 9 students in understanding and mastering key topics related to \keyword{whole numbers}, including \keyword{rounding}, \keyword{place value}, and \keyword{estimation}. These fundamental skills form the base for higher-level mathematics and are aligned with the \keyword{New Zealand Curriculum} for Mathematics.
+
+\textbf{Useful Math Vocabulary:} Whole number, digit, round, estimate, approximate, value, place value, thousands, hundreds, tens, ones, greater than, less than, add, subtract, mental math, nearest, number line.
+
+\section{1. Place Value}
+\subsection{Theory}
+\keyword{Place value} is the value of each digit in a number based on its position. The digits 0–9 can appear in different positions to create different values.
+
+\subsection{Place Value Chart}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{Millions} & \textbf{Hundred Thousands} & \textbf{Ten Thousands} & \textbf{Thousands} & \textbf{Hundreds} & \textbf{Tens} & \textbf{Ones} \\
+\hline
+1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
+\end{tabular}
+\end{center}
+This number is: \textbf{1\mathspace{234\mathspace{567}}}
+
+\subsection{Examples}
+\begin{itemize}
+    \item In \textbf{7\mathspace{456}}, the digit \textbf{4} is in the \keyword{hundreds} place, so its value is \textbf{400}.
+    \item In \textbf{82\mathspace{301}}, the digit \textbf{8} is in the \keyword{ten-thousands} place, so its value is \textbf{80\mathspace{000}}.
+\end{itemize}
+
+\subsection{Practice Activity}
+\textbf{Write the value of the underlined digit:}
+\begin{enumerate}
+    \item 6\underline{5}7
+    \item \underline{8}2\mathspace{190}
+    \item 2,\underline{0}34
+\end{enumerate}
+
+\section{2. Rounding Numbers}
+\subsection{Theory}
+\keyword{Rounding} means simplifying a number while keeping its value close to what it was. It is useful in \keyword{estimation} and \keyword{mental math}.
+
+\subsection{Rules for Rounding}
+\begin{itemize}
+    \item Find the place you are rounding to (e.g., \keyword{nearest ten}).
+    \item Look at the digit to the right.
+    \item If it is \textbf{5 or more}, round \keyword{up}. If it is \textbf{4 or less}, round \keyword{down}.
+\end{itemize}
+
+\subsection{Examples}
+\begin{itemize}
+    \item Round \textbf{367} to the nearest ten: Look at 7 (next to 6). Since 7 \textgreater{}= 5, round up: \textbf{\textcolor{blue}{370}}
+    \item Round \textbf{1\mathspace{234}} to the nearest hundred: Look at 3. Since 3 \textless{} 5, round down: \textbf{\textcolor{blue}{1\mathspace{200}}}
+\end{itemize}
+
+\subsection{Practice Activity}
+\textbf{Round the following numbers:}
+\begin{enumerate}
+    \item 648 (to the nearest ten)
+    \item 1\mathspace{357} (to the nearest hundred)
+    \item 2\mathspace{985} (to the nearest thousand)
+\end{enumerate}
+
+\section{3. Estimating}
+\subsection{Theory}
+\keyword{Estimation} is used to make quick calculations by \keyword{rounding} numbers first. It is especially helpful when an exact answer is not needed.
+
+\subsection{Examples}
+\begin{itemize}
+    \item Estimate \textbf{398 + 246}: Round to \textbf{400 + 250 = \textcolor{blue}{650}}
+    \item Estimate \textbf{1\mathspace{230} - 489}: Round to \textbf{1\mathspace{200} - 500 = \textcolor{blue}{700}}
+\end{itemize}
+
+\subsection{Practice Activity}
+\textbf{Estimate the following:}
+\begin{enumerate}
+    \item 894 + 1\mathspace{102}
+    \item 2\mathspace{375} - 1\mathspace{148}
+    \item 3\mathspace{012} + 4\mathspace{987}
+\end{enumerate}
+
+\newpage
+
+\section{Knowledge and Skills Assessment}
+\subsection*{Instructions:} Answer the questions below. Show all your working where possible.
+
+\begin{enumerate}
+    \item Write the place value of the underlined digits:
+    \begin{itemize}
+        \item 1,\underline{2}36
+        \item 7\underline{5}1
+    \end{itemize}
+    \item Round the following numbers:
+    \begin{itemize}
+        \item 3\mathspace{986} (nearest ten)
+        \item 12\mathspace{345} (nearest hundred)
+        \item 6\mathspace{492} (nearest thousand)
+    \end{itemize}
+    \item Estimate the following:
+    \begin{itemize}
+        \item 3\mathspace{894} + 2\mathspace{143}
+        \item 7\mathspace{823} - 3\mathspace{445}
+        \item 5\mathspace{378} + 6\mathspace{921}
+    \end{itemize}
+\end{enumerate}
+
+\subsection*{Optional Challenge:}
+\textit{Explain in your own words: Why is estimation important in real life?}
+
+\end{document}
