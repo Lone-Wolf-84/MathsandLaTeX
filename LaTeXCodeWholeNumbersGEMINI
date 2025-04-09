@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+\usepackage{hyperref} % Para hipervínculos
+
+\title{Whole Numbers: Rounding, Place Value, and Estimating}
+\author{Geovanny A. Chamorro \\ Inclusion Learning Assistant \\ Learning Support Department \\ Marlborough Boys' College \\ Email: \href{mailto:geovanny.chamorro@mbc.school.nz}{geovanny.chamorro@mbc.school.nz} \\ ORCID: \href{https://orcid.org/0000-0002-9365-8463}{0000-0002-9365-8463}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+This guide aims to provide a comprehensive understanding of whole numbers, including rounding, place value, and estimation. These skills are fundamental in mathematics and are frequently used in everyday life.
+
+\section{Place Value}
+
+\subsection{Understanding Place Value}
+
+Place value refers to the value of a digit based on its position in a number. For example, in the number 1,234, the digit 1 represents 1,000, 2 represents 200, 3 represents 30, and 4 represents 4.
+
+\subsection{Example}
+
+Consider the number 567,890.
+\begin{itemize}
+    \item 5 is in the hundred thousands place (500,000)
+    \item 6 is in the ten thousands place (60,000)
+    \item 7 is in the thousands place (7,000)
+    \item 8 is in the hundreds place (800)
+    \item 9 is in the tens place (90)
+    \item 0 is in the ones place (0)
+\end{itemize}
+
+\section{Rounding Numbers}
+
+\subsection{Rounding Rules}
+
+Rounding is a way to simplify numbers.
+\begin{itemize}
+    \item If the digit to the right of the rounding place is 5 or more, round up.
+    \item If the digit to the right of the rounding place is less than 5, round down.
+\end{itemize}
+
+\subsection{Examples}
+
+\begin{itemize}
+    \item Round 1,234 to the nearest hundred: 1,200
+    \item Round 5,678 to the nearest thousand: 6,000
+    \item Round 987 to the nearest ten: 990
+\end{itemize}
+
+\section{Estimating}
+
+\subsection{Estimation Techniques}
+
+Estimation involves finding an approximate answer. It is useful for quick calculations and checking the reasonableness of results.
+\begin{itemize}
+    \item Round numbers to make calculations easier.
+    \item Use compatible numbers (numbers that are easy to calculate mentally).
+\end{itemize}
+
+\subsection{Example}
+
+Estimate the sum of 1,234 and 5,678.
+\begin{itemize}
+    \item Round 1,234 to 1,200.
+    \item Round 5,678 to 5,700.
+    \item Estimate: 1,200 + 5,700 = 6,900
+\end{itemize}
+
+\section{Practical Example}
+
+A school is planning a trip for 348 students. Each bus can carry 45 students. Estimate how many buses are needed.
+\begin{itemize}
+    \item Round 348 to 350.
+    \item Round 45 to 50.
+    \item Estimate: 350 / 50 = 7 buses.
+\end{itemize}
+
+\section{Knowledge and Skills Test}
+
+\subsection{Place Value Questions}
+
+1.  What is the place value of 7 in the number 45,789?
+2.  Write the number 90,000 + 3,000 + 200 + 50 + 1 in standard form.
+
+\subsection{Rounding Questions}
+
+1.  Round 12,345 to the nearest thousand.
+2.  Round 678 to the nearest hundred.
+
+\subsection{Estimation Questions}
+
+1.  Estimate the product of 23 and 48.
+2.  Estimate the quotient of 789 and 26.
+
+\subsection{Practical Application}
+
+1.  A store sold 1,567 items in January and 2,345 items in February. Estimate the total number of items sold.
+2.  A recipe calls for 245 grams of flour. If you need to make 3 times the recipe, estimate how much flour you will need.
+
+\end{document}
