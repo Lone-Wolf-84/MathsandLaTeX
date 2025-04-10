@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage[english]{babel}
+\usepackage{xcolor} % For colors
+\usepackage{siunitx} % For ISO-compliant digit grouping
+\sisetup{
+  group-separator = \,,
+  group-minimum-digits = 4,
+  output-decimal-marker = {.},
+  group-digits = integer
+}
+
+% Custom colors
+\definecolor{keyword}{RGB}{196, 0, 128} % Purple for keywords
+\definecolor{example}{RGB}{0, 102, 204} % Blue for examples
+\definecolor{important}{RGB}{220, 50, 47} % Red for important notes
+\definecolor{info}{RGB}{128, 128, 128} % Gray for important notes
+
+% Header with school info
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textcolor{info}{Marlborough Boys' College} \\ \textcolor{info}{Learning Support Department}}
+\rhead{\textcolor{info}{Inclusion Learning Assistant: Geovanny A. Chamorro M.}}
+\cfoot{\thepage}
+
+\titleformat{\section}{\large\bfseries\color{keyword}}{\thesection.}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries\color{keyword}}{\thesubsection.}{0.5em}{}
+
+\title{\color{keyword}Grade 9 Mathematics: Whole Numbers}
+\author{\textcolor{info}{Learning Support Department} \\ \textcolor{info}{Marlborough Boys' College}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\section{Place Value}
+
+\subsection{Understanding Place Value}
+Each digit in a whole number has a value based on its \textcolor{important}{\textbf{position}} (place). The places are organized from right to left as follows:
+
+\begin{center}
+\colorbox{black!5}{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{Hundred Thousands} & \textbf{Ten Thousands} & \textbf{Thousands} & \textbf{Hundreds} & \textbf{Tens} & \textbf{Ones} \\
+\hline
+\num{100000} & \num{10000} & \num{1000} & \num{100} & \num{10} & \num{1} \\
+\hline
+\end{tabular}
+}
+\end{center}
+
+\subsection{Example}
+For the number \textcolor{example}{\textbf{\num{45862}}}:
+\begin{itemize}
+\item \textcolor{important}{\textbf{4}} is in the \textcolor{important}{\textbf{ten thousands}} place: \(4 \times \num{10000} = \num{40000}\)
+\item \textcolor{important}{\textbf{5}} is in the \textcolor{important}{\textbf{thousands}} place: \(5 \times \num{1000} = \num{5000}\)
+\item \textcolor{important}{\textbf{8}} is in the \textcolor{important}{\textbf{hundreds}} place: \(8 \times \num{100} = \num{800}\)
+\end{itemize}
+
+\section{Rounding Numbers}
+
+\subsection{Steps to Round a Number}
+1. Identify the \textcolor{important}{\textbf{place value}} to round to (e.g., tens, hundreds). \\
+2. Look at the digit to the \textcolor{important}{\textbf{right}} of the chosen place. \\
+3. If it is \textcolor{important}{\textbf{5 or greater}}, round \textcolor{important}{\textbf{up}}. If it is \textcolor{important}{\textbf{4 or less}}, round \textcolor{important}{\textbf{down}}. \\
+4. Replace all digits to the right with \textcolor{important}{\textbf{zeros}}.
+
+\subsection{Example}
+Round \textcolor{example}{\textbf{\num{3478}}} to the nearest \textcolor{important}{\textbf{hundred}}:
+\begin{itemize}
+\item The digit in the hundreds place is \textcolor{important}{\textbf{4}}.
+\item The digit to the right is \textcolor{important}{\textbf{7}} (≥5), so we round \textcolor{important}{\textbf{up}}.
+\item \textbf{\num{3478} → \num{3500}}
+\end{itemize}
+
+\section{Estimating}
+
+\subsection{Why Estimate?}
+Estimation helps quickly check if an answer is \textcolor{important}{\textbf{reasonable}}. We round numbers before calculating.
+
+\subsection{Example}
+Estimate \(\num{1245} + \num{3765}\):
+\begin{itemize}
+\item Round to the nearest hundred: \(\num{1200} + \num{3800} = \num{5000}\)
+\item Actual sum: \(\num{1245} + \num{3765} = \num{5010}\) (close!)
+\end{itemize}
+
+\section{Math Terms Glossary}
+\textcolor{keyword}{\textbf{Frequently Used Terms:}} 
+\textbf{Place Value} (the value of a digit based on its position), \textbf{Rounding} (adjusting a number to a nearby value), \textbf{Estimation} (approximating a result), \textbf{Digit} (a single symbol 0-9), \textbf{Whole Number} (numbers without fractions, e.g., \num{0}, \num{1}, \num{2}...).
+
+\section{Practice Problems}
+
+\subsection{Place Value}
+1. In \textcolor{example}{\textbf{\num{72 946}}}, what is the value of the digit \textcolor{important}{\textbf{7}}? \\
+2. Write \textcolor{example}{\textbf{eighty-five thousand two hundred three}} in digits.
+
+\subsection{Rounding}
+3. Round \textcolor{example}{\textbf{\num{6 789}}} to the nearest \textcolor{important}{\textbf{thousand}}. \\
+4. Round \textcolor{example}{\textbf{\num{945}}} to the nearest \textcolor{important}{\textbf{ten}}.
+
+\section{Knowledge Test}
+
+\subsection*{Part A: Multiple Choice (2 points each)}
+1. What is the value of 8 in \textcolor{example}{\textbf{\num{38 451}}}? \\
+a) 80 \quad b) 800 \quad c) \num{8 000} \quad d) \num{80 000} \\
+
+2. Round \textcolor{example}{\textbf{\num{1 562}}} to the nearest hundred. \\
+a) \num{1 500} \quad b) \num{1 600} \quad c) \num{1 560} \quad d) \num{2 000} \\
+
+\subsection*{Part C: Word Problem (10 points)}
+5. A fundraiser sells \textcolor{example}{\textbf{\num{1 235}}} tickets at \$12 each. Estimate total earnings by rounding to the nearest hundred.
+
+\vspace{1cm}
+\textbf{Total: 30 points}
+
+\begin{center}
+\rule{0.5\textwidth}{0.4pt}
+\end{center}
+
+\section{Answer Key}
+\begin{itemize}
+\item[1.] \num{70 000}
+\item[3.] \num{7 000}
+\item[5.] \(\num{1 200} \times 10 = \$ \num{12 000}\)
+\end{itemize}
+
+\end{document}
